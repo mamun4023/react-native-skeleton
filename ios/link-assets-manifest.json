@@ -1,0 +1,57 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Brandon_bld.otf",
+      "sha1": "a9b9dae4568883ef65d130a8237343185d463f2a"
+    },
+    {
+      "path": "assets/fonts/Brandon_med.otf",
+      "sha1": "22eba8bb6e2181a8dd6580fa6f785fba76a97331"
+    },
+    {
+      "path": "assets/fonts/Brandon_reg.otf",
+      "sha1": "e8acc9022336f58bb5ee2e2d4d98b51bebf45990"
+    },
+    {
+      "path": "assets/fonts/brandon-grotesque-black.otf",
+      "sha1": "0217e9d4487aeaafaa779c97ea93d641e570a36f"
+    },
+    {
+      "path": "assets/fonts/brandon-grotesque-bold.otf",
+      "sha1": "23b3c5e6c7a740e7199a139c2879b1b63eacb8ca"
+    },
+    {
+      "path": "assets/fonts/brandon-grotesque-light-italic.otf",
+      "sha1": "ca09ddade8f42775006857a9bb6b5879d0d4ca10"
+    },
+    {
+      "path": "assets/fonts/brandon-grotesque-light.otf",
+      "sha1": "a8231e2776ee4f0c9834d77f4163a64912e84f89"
+    },
+    {
+      "path": "assets/fonts/brandon-grotesque-medium-italic.otf",
+      "sha1": "4038ee844879d19e11c21cfa289b9d3e0ade0680"
+    },
+    {
+      "path": "assets/fonts/brandon-grotesque-regular-italic.otf",
+      "sha1": "671d38680ff1ea4f76f73a64a6ae06a4774cbd34"
+    },
+    {
+      "path": "assets/fonts/brandon-grotesque-thin-italic.otf",
+      "sha1": "f46fd0a2e64d48c44f235179e0efc8fa8da26a6f"
+    },
+    {
+      "path": "assets/images/green.jpeg",
+      "sha1": "b98173835d6a29c6b562f99b99eb3bde95d3d07f"
+    },
+    {
+      "path": "assets/logo/logo.png",
+      "sha1": "a87118f8b432cca9b3db9a830dc948d7a5bcd508"
+    },
+    {
+      "path": "assets/logo/logo.svg",
+      "sha1": "52483aa407a92993306759b2646c2169381eec82"
+    }
+  ]
+}
