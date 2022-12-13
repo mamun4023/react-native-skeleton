@@ -27,6 +27,13 @@
 		7D67D4A9A71249D6A18E3F48 /* brandon-grotesque-regular-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B11EB8EBFA2D4DF281084F8B /* brandon-grotesque-regular-italic.otf */; };
 		F79783BE965347DBBCE364C6 /* brandon-grotesque-thin-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C65182B7CFE94EA99267853E /* brandon-grotesque-thin-italic.otf */; };
 		0E6909178A9649C984C8BFA1 /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = E5EB4E9C953A4C579BFBCF2C /* logo.svg */; };
+		E2DB37FB032745F69ACCFD7F /* Recoleta-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC08DCF4C5AC4ED8A66854D7 /* Recoleta-Black.ttf */; };
+		E2C0F06D89F245C0AA04152C /* Recoleta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 870D844865CF458BAD75C196 /* Recoleta-Bold.ttf */; };
+		AE09D01B6FE945A49A6CC567 /* Recoleta-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08A14F11373C4A2B8B260C15 /* Recoleta-Light.ttf */; };
+		6D6B545046F6448FBAF34727 /* Recoleta-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDEBCD8721F94E7E9E9AB3EA /* Recoleta-Medium.ttf */; };
+		A1A056B34AFE4CBC8A45827C /* Recoleta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E22C987754A1481B8D2A1BB2 /* Recoleta-Regular.ttf */; };
+		6D07F082E0FF4B8791256D7C /* Recoleta-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C4D31E1288340979FC1FF2E /* Recoleta-SemiBold.ttf */; };
+		4C8F6F857B504888B1E47D1A /* Recoleta-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A0BB277B7A341DDBE070875 /* Recoleta-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +77,13 @@
 		B11EB8EBFA2D4DF281084F8B /* brandon-grotesque-regular-italic.otf */ = {isa = PBXFileReference; name = "brandon-grotesque-regular-italic.otf"; path = "../assets/fonts/brandon-grotesque-regular-italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		C65182B7CFE94EA99267853E /* brandon-grotesque-thin-italic.otf */ = {isa = PBXFileReference; name = "brandon-grotesque-thin-italic.otf"; path = "../assets/fonts/brandon-grotesque-thin-italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E5EB4E9C953A4C579BFBCF2C /* logo.svg */ = {isa = PBXFileReference; name = "logo.svg"; path = "../assets/logo/logo.svg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC08DCF4C5AC4ED8A66854D7 /* Recoleta-Black.ttf */ = {isa = PBXFileReference; name = "Recoleta-Black.ttf"; path = "../assets/fonts/Recoleta-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		870D844865CF458BAD75C196 /* Recoleta-Bold.ttf */ = {isa = PBXFileReference; name = "Recoleta-Bold.ttf"; path = "../assets/fonts/Recoleta-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08A14F11373C4A2B8B260C15 /* Recoleta-Light.ttf */ = {isa = PBXFileReference; name = "Recoleta-Light.ttf"; path = "../assets/fonts/Recoleta-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDEBCD8721F94E7E9E9AB3EA /* Recoleta-Medium.ttf */ = {isa = PBXFileReference; name = "Recoleta-Medium.ttf"; path = "../assets/fonts/Recoleta-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E22C987754A1481B8D2A1BB2 /* Recoleta-Regular.ttf */ = {isa = PBXFileReference; name = "Recoleta-Regular.ttf"; path = "../assets/fonts/Recoleta-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6C4D31E1288340979FC1FF2E /* Recoleta-SemiBold.ttf */ = {isa = PBXFileReference; name = "Recoleta-SemiBold.ttf"; path = "../assets/fonts/Recoleta-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A0BB277B7A341DDBE070875 /* Recoleta-Thin.ttf */ = {isa = PBXFileReference; name = "Recoleta-Thin.ttf"; path = "../assets/fonts/Recoleta-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +205,13 @@
 				B11EB8EBFA2D4DF281084F8B /* brandon-grotesque-regular-italic.otf */,
 				C65182B7CFE94EA99267853E /* brandon-grotesque-thin-italic.otf */,
 				E5EB4E9C953A4C579BFBCF2C /* logo.svg */,
+				BC08DCF4C5AC4ED8A66854D7 /* Recoleta-Black.ttf */,
+				870D844865CF458BAD75C196 /* Recoleta-Bold.ttf */,
+				08A14F11373C4A2B8B260C15 /* Recoleta-Light.ttf */,
+				CDEBCD8721F94E7E9E9AB3EA /* Recoleta-Medium.ttf */,
+				E22C987754A1481B8D2A1BB2 /* Recoleta-Regular.ttf */,
+				6C4D31E1288340979FC1FF2E /* Recoleta-SemiBold.ttf */,
+				8A0BB277B7A341DDBE070875 /* Recoleta-Thin.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -305,6 +326,13 @@
 				7D67D4A9A71249D6A18E3F48 /* brandon-grotesque-regular-italic.otf in Resources */,
 				F79783BE965347DBBCE364C6 /* brandon-grotesque-thin-italic.otf in Resources */,
 				0E6909178A9649C984C8BFA1 /* logo.svg in Resources */,
+				E2DB37FB032745F69ACCFD7F /* Recoleta-Black.ttf in Resources */,
+				E2C0F06D89F245C0AA04152C /* Recoleta-Bold.ttf in Resources */,
+				AE09D01B6FE945A49A6CC567 /* Recoleta-Light.ttf in Resources */,
+				6D6B545046F6448FBAF34727 /* Recoleta-Medium.ttf in Resources */,
+				A1A056B34AFE4CBC8A45827C /* Recoleta-Regular.ttf in Resources */,
+				6D07F082E0FF4B8791256D7C /* Recoleta-SemiBold.ttf in Resources */,
+				4C8F6F857B504888B1E47D1A /* Recoleta-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

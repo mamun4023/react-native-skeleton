@@ -1,9 +1,9 @@
 
-import {View, StyleSheet, Text, TextInput} from 'react-native';
+import {View, StyleSheet, Text, TextInput, Linking} from 'react-native';
 import SVGLogo from '../../../assets/logo/logo.svg'
 import Button from '../../components/button';
 
-export default function Login(){
+export default function Login({navigation}){
     return(
         <View style = {styles.container}>
             <View style = {styles.logo}>
@@ -27,14 +27,13 @@ export default function Login(){
             <View style = {styles.btn}>
                 <Button 
                     title='Continue' 
-                    // onPress={}
+                    onPress={()=> navigation.navigate('opt_screen')}
                 />
             </View>
-            <Text  > By continuing, you are agreeing to the Temrs & Conditions and Privacy Policy</Text>
+            <Text style = {styles.bottomTxt} > By continuing, you are agreeing to the Temrs & Conditions and Privacy Policy</Text>
 
 
 
-            <Text> Login </Text>
         </View>
     )
 }
@@ -73,5 +72,12 @@ const styles = StyleSheet.create({
     btn : {
         width : 350,
         marginTop : 20
+    },
+    bottomTxt : {
+        color : 'black',
+        fontSize : 15,
+        fontFamily : 'Brandon_med',
+        padding : 10,
+        margin : 10,
     }
 })

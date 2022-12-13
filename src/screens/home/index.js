@@ -1,8 +1,9 @@
 import { View, Text, StyleSheet, ImageBackground, StatusBar} from 'react-native'
 
 import Button from '../../components/button'
-import SvgImage from '../../../assets/logo/logo.svg';
+import Logo from '../../components/logo';
 import Icon from '../../components/Icon';
+import Lebel from '../../components/lebel';
 
 export default function Home({navigation}){
     return(
@@ -12,14 +13,11 @@ export default function Home({navigation}){
         > 
             <StatusBar translucent ={false} />
            <View> 
-              
-                <SvgImage       
+                <Logo       
                     width= {200}
                     height= {200}
-                   
                 />
            </View>
-
             <View style = {styles.btn}> 
                 <Button 
                     title= "Login" 
@@ -70,8 +68,11 @@ export default function Home({navigation}){
                     style = {styles.icon}   
                 />
             </View>
-            <Text style = {styles.copyWrite}> @JatieVIP, Inc. All rights reserved. </Text>
-        
+            <Lebel 
+                title= "@JatieVIP, Inc. All rights reserved."
+                color= "white"
+            />
+            
          </ImageBackground>
       
     )

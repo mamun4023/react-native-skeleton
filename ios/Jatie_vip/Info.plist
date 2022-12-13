@@ -63,6 +63,13 @@
 		<string>brandon-grotesque-medium-italic.otf</string>
 		<string>brandon-grotesque-regular-italic.otf</string>
 		<string>brandon-grotesque-thin-italic.otf</string>
+		<string>Recoleta-Black.ttf</string>
+		<string>Recoleta-Bold.ttf</string>
+		<string>Recoleta-Light.ttf</string>
+		<string>Recoleta-Medium.ttf</string>
+		<string>Recoleta-Regular.ttf</string>
+		<string>Recoleta-SemiBold.ttf</string>
+		<string>Recoleta-Thin.ttf</string>
 	</array>
 </dict>
 </plist>

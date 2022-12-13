@@ -16,14 +16,14 @@ const styles = StyleSheet.create({
       borderRadius: 10,
       paddingVertical: 10,
       paddingHorizontal: 12,
-      shadowColor : 'red'
+      shadowColor : 'black'
     },
     appButtonText: {
       fontSize: 18,
       color: "#fff",
       // fontWeight: "bold",
       alignSelf: "center",
-      fontFamily : 'Brandon_bld'
+      fontFamily : 'Recoleta-Bold'
     }
   });
 
