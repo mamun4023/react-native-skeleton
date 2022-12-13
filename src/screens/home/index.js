@@ -4,7 +4,7 @@ import Button from '../../components/button'
 import SvgImage from '../../../assets/logo/logo.svg';
 import Icon from '../../components/Icon';
 
-export default function Home(){
+export default function Home({navigation}){
     return(
         <ImageBackground 
             source={require("../../../assets/images/green.jpeg")}
@@ -21,10 +21,16 @@ export default function Home(){
            </View>
 
             <View style = {styles.btn}> 
-                <Button title= "Login" />
+                <Button 
+                    title= "Login" 
+                    onPress={()=>navigation.navigate('login')}
+                />
             </View>
             <View style = {styles.btn}> 
-                <Button title= "Sign Up" />
+                <Button 
+                    title= "Sign Up" 
+                    onPress={()=>navigation.navigate('signup')}
+                />
             </View>
 
             <View style = {styles.socialIconContainer}>
