@@ -3,6 +3,8 @@ import {View, StyleSheet, Text, TextInput, Linking} from 'react-native';
 import SVGLogo from '../../../assets/logo/logo.svg'
 import Button from '../../components/button';
 
+    
+
 export default function Login({navigation}){
     return(
         <View style = {styles.container}>
@@ -30,6 +32,7 @@ export default function Login({navigation}){
                     onPress={()=> navigation.navigate('opt_screen')}
                 />
             </View>
+            
             <Text style = {styles.bottomTxt} > By continuing, you are agreeing to the Temrs & Conditions and Privacy Policy</Text>
 
 

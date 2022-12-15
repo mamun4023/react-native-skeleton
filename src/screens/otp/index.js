@@ -1,9 +1,13 @@
 
-import {View, StyleSheet, Text} from 'react-native';
+import { useEffect, useRef, useState } from 'react';
+import {View, StyleSheet, Text, TextInput} from 'react-native';
 import SVGLog from '../../../assets/logo/logo.svg'
 import Button from '../../components/button';
 
-export default function OPTScreen(){
+export default function OPTScreen({navigation}){
+
+    const lastNameRef = useRef();
+  
     return(
         <View style = {styles.container}>
             <View style = {styles.logo}>
@@ -13,17 +17,32 @@ export default function OPTScreen(){
                 />
             </View>
             <View>
-                <Text style = {styles.headerText} > Enter OTP to Continue </Text>
+                <Text style = {styles.headerText} > Enter OTP to continue </Text>
                 <Text style = {styles.lebel} > Please enter the verification code that was sent to </Text>
                 <View style = {styles.numberBox}>
                     <Text style = {styles.phoneNumber}> +4655455544555</Text>
                     <Text style = {styles.editText}> Edit </Text>
                 </View>
             </View>
+            <View style = {styles.codeInputContainer}>
+                <TextInput 
+                    style = {styles.input}
+                    autoFocus = {true}
+                    maxLength = {1}
+                    onSubmitEditing = {()=> {lastNameRef.current.focus()}}
+                />
+                 <TextInput 
+                    style = {styles.input}
+                    maxLength = {1}
+                    ref = {lastNameRef}
+                />
+               
+            </View>
             <Text style = {{ color : 'red'}} > Sorry, the code didn't match. Resend </Text>
             <View style = {styles.btn}>
                 <Button 
                     title= "Continue"
+                    onPress={()=> navigation.navigate('dashboard')}
                 />
             </View>
             
@@ -35,8 +54,8 @@ const styles = StyleSheet.create({
     container : {
         flex : 1,
         backgroundColor : 'white',
-        
-        margin : 20
+        padding : 10
+
     },
     headerText : {
         fontSize : 40,
@@ -65,5 +84,15 @@ const styles = StyleSheet.create({
     btn : {
         width : '80%',
         margin : 10,
+    },
+    codeInputContainer : {
+        flexDirection  : 'row'
+    },
+    input : {
+        borderWidth : 2,
+        margin : 2,
+        borderRadius : 8,
+        width : 100
     }
+
 })
